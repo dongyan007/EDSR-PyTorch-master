@@ -11,6 +11,7 @@ torch.manual_seed(args.seed)
 checkpoint = utility.checkpoint(args)
 
 def main():
+    #ceshi
     global model
     if args.data_test == ['video']:
         from videotester import VideoTester
